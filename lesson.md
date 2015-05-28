@@ -169,7 +169,23 @@ sudo pip install git+git://github.com/yourName/repoName.git#egg=repoName
 
 ### Distributing on PyPI
 
-TBD
+Distributing on PyPI is simpler than on Git, but you'll have to maintain the package in two places if you intend on collaborating on development on GitHub and distributing through PyPI. To get set up on PyPI for the first time with a new package, do
+
+```
+python setup.py register
+```
+
+to claim your package name - they must be unique. Then, upload your package; you'll do this every time you want to release a new version of your code:
+
+```
+python setup.py sdist upload
+```
+
+Now, you and anyone else in the world can install your package using the following:
+
+```
+sudo pip install your-package-name
+```
 
 ## 6. Try out the Example
 
@@ -177,6 +193,12 @@ You can install the demo package as described above, by running:
 
 ```
 sudo pip install git+git://github.com/billmills/python-package-example.git#egg=python-package-example
+```
+
+or from PyPI:
+
+```
+sudo pip install python-package-example
 ```
 
 This demo package contains the same code illustrated in the examples above. After installing, try running the following script:
