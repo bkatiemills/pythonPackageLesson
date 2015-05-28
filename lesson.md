@@ -10,7 +10,7 @@ One of the most powerful things about coding for the sciences is that it costs u
 
 ## Getting Set Up
 
-This tutorial will walk you through a [demo Python package](https://github.com/BillMills/python-package-example), and explain all the details you'll need to know to create your own package. The demo is fully functional, so you can even use is as a template for your own packages.
+This tutorial will walk you through a [demo Python package](https://github.com/BillMills/python-package-example), and explain all the details you'll need to know to create your own package. The demo is fully functional, so you can even use it as a template for your own packages.
 
 We'll build up our own package in the lesson, but you can refer to the demo linked above for an example at any time.
 
