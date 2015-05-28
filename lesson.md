@@ -1,22 +1,22 @@
 # Creating Packages in Python
 
- - Authors: Hybrid of lessons from Elise Olson, [The Hitchhiker's Guide to Packaging](http://the-hitchhikers-guide-to-packaging.readthedocs.org/en/latest/quickstart.html), and [Bill Mills](https://github.com/BillMills)
- - Research Field: any
- - Topic: A tour of making a minimal package in Python, with boilerplate.
+- Authors: Hybrid of lessons from Elise Olson, [The Hitchhiker's Guide to Packaging](http://the-hitchhikers-guide-to-packaging.readthedocs.org/en/latest/quickstart.html), and [Bill Mills](https://github.com/BillMills)
+- Research Field: any
+- Topic: A tour of making a minimal package in Python, with boilerplate.
 
- ## Why are we doing this?
+## Why are we doing this?
 
- One of the most powerful things about coding for the sciences is that it costs us nothing to re-use code we've written in the past, allowing us to build on our past work rather than starting over every project or paper. Assembling our code in packages makes it really easy to re-use old code - when we're done, we'll be able to access all our hard work with a single import command, just like famous packages like numpy or matplotlib.
+One of the most powerful things about coding for the sciences is that it costs us nothing to re-use code we've written in the past, allowing us to build on our past work rather than starting over every project or paper. Assembling our code in packages makes it really easy to re-use old code - when we're done, we'll be able to access all our hard work with a single import command, just like famous packages like numpy or matplotlib.
 
- ## Getting Set Up
+## Getting Set Up
 
- This tutorial will walk you through a [demo Python package](https://github.com/BillMills/python-package-example), and explain all the details you'll need to know to create your own package. The demo is fully functional, so you can even use is as a template for your own packages.
+This tutorial will walk you through a [demo Python package](https://github.com/BillMills/python-package-example), and explain all the details you'll need to know to create your own package. The demo is fully functional, so you can even use is as a template for your own packages.
 
- We'll build up our own package in the lesson, but you can refer to the demo linked above for an example at any time.
+We'll build up our own package in the lesson, but you can refer to the demo linked above for an example at any time.
 
- ## 1. The Basics
+## 1. The Basics
 
- The basic directory structure for the simplest Python package looks like this:
+The basic directory structure for the simplest Python package looks like this:
 
 ```
 project
@@ -102,7 +102,6 @@ This table contains descriptions of the parameters you may consider changing; ot
 
 Parameter | Comments
 ----------|---------
-
 name      | the name package managers will use for your project, like `numpy` or `matplotlib`
 version   | the current version number of your project; see [pep440](https://www.python.org/dev/peps/pep-0440/) for an explanation of how to choose these.
 license   | name of the license you chose
@@ -118,7 +117,7 @@ The `setup.py` file is the machine-readable description of your project; for hum
 
 If you need to include some data files with your package, you'll need to write a MANIFEST.in file at the top level of your project. First, put your data files in a `packageData` directory under `myPackage`; your project should now look something like this:
 
- ```
+```
 project
 |
 |
