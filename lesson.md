@@ -149,7 +149,7 @@ include myPackage/packageData/myData.dat
 
 All the files listed like this in `MANIFEST.in` will be included with your package when others install it.
 
-## 5. Wrapping It Up & Ship It
+## 5. Wrap It Up & Ship It
 
 That's it, you're good to go! If everything is in place, run
 
