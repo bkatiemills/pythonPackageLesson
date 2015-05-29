@@ -169,7 +169,7 @@ sudo pip install git+git://github.com/yourName/repoName.git#egg=repoName
 
 ### Distributing on PyPI
 
-Distributing on PyPI is simpler than on Git, but you'll have to maintain the package in two places if you intend on collaborating on development on GitHub and distributing through PyPI. To get set up on PyPI for the first time with a new package, do
+Distributing on PyPI is simpler than on Git, but you'll have to maintain the package in two places if you intend on collaborating on development on GitHub and distributing through PyPI. To get set up on PyPI for the first time with a new package, [make a new account on PyPI](https://pypi.python.org/pypi), and then back in your `package` directory do
 
 ```
 python setup.py register
