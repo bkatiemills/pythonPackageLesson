@@ -134,11 +134,11 @@ project
 |
 |__ setup.py
 |
-|__ LICENSE.txt
+|__ LICENSE.md
 |
 |__ MANIFEST.in
 |
-|__ README.txt
+|__ README.md
 ```
 
 where your data is in `myData.dat`; again, you can have as many of these files as you like. For each data file, include a line in `MANIFEST.in` that gives the path to the file you want to include:
