@@ -49,7 +49,7 @@ def fahrToKelv(temp):
 import your python modules (you can have as many as you like) in `__init__.py`:
 
 ```
-import somePython
+from . import somePython
 ```
 
 and of course, always, always write a test for every function you create in `test.py`:
