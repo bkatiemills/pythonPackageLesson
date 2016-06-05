@@ -166,6 +166,14 @@ For the git inclined, add everything in the above diagram plus the new `dist` di
 ```
 sudo pip install git+git://github.com/yourName/repoName.git#egg=repoName
 ``` 
+### Updating the package
+
+When the package is modified on github, ```version``` will be changed in ```setup.py``` . Now you can upgrade your package with (remember to replace `yourName` with your GitHub user name and `repoName` with the name of the repo on GitHub you pushed to):
+
+```
+sudo pip install git+git://github.com/yourName/repoName.git#egg=repoName
+``` 
+
 
 ### Distributing on PyPI
 
